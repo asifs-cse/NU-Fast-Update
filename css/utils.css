@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Roboto+Mono:wght@100;400&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400&family=Roboto:wght@300&display=swap');
+
+:root {
+    --main-bg-color: brown;
+    --font2: 'Roboto', sans-serif;
+    --font1: 'Nunito', sans-serif;
+}
+
+.font1 {
+    font-family: var(--font1);
+}
+
+.font2 {
+    font-family: var(--font2);
+}
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.max-width-3 {
+    max-width: 30vw;
+}
+
+.m-auto {
+    margin: auto;
+}
